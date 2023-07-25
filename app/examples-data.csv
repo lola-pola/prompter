@@ -1,0 +1,59 @@
+"act","prompt"
+"Specificity","There are many fruits that were found on the recently discovered planet Goocrux. There are neoskizzles that grow there,
+which are purple and taste like candy. There are also loheckles, which are a grayish blue fruit and are very tart,
+a little bit like a lemon. Pounits are a bright green color and are more savory than sweet. There are also plenty of
+loopnovas which are a neon pink flavor and taste like cotton candy. Finally, there are fruits called glowls, which have
+a very sour and bitter taste which is acidic and caustic, and a pale orange tinge to them.
+
+Please make a table summarizing the fruits from Goocrux
+| Fruit | Color | Flavor |
+| Neoskizzles | Purple | Sweet |
+| Loheckles | Grayish blue | Tart |"
+The Instruction,"### Instruction ###
+Translate the text below to Spanish:
+
+Text: hello!"
+"Avoid Impreciseness","Provide a short explanation of what prompt engineering is in NLP without using technical language
+To do or not to do?,The following is an exchange between an IT Support Agent and a customer. The customer is locked out of their account. DO NOT ASK FOR THEIR PASSWORD. DO NOT ASK ABOUT PERSONAL INFORMATION.
+
+Customer: I cannot log into my account.
+IT Support Agent:"
+"Few-shot Question-Answer (QA) Format","This is awesome! // Positive
+This is bad! // Negative
+Wow that movie was rad! // Positive
+What a horrible show! //"
+"Zero-Shot Prompts","Classify the sentiment of the text below into very negative, negative, neutral, positive, very positive.
+
+Text: I think this movie was terrible. What a waste of time."
+"One-Shot Prompts","Tell me in which city a university is located.
+
+University: UCLA"
+"Few-Shot Prompts","Generate a JSON document which provides Name, position and company from the text below.
+
+Text: Fred is a serial entrepreneur. Co-founder and CEO of Platform.sh, he previously co-founded Commerce Guys, a leading Drupal ecommerce provider. His mission is to guarantee that as we continue on an ambitious journey to profoundly transform how cloud computing is used and perceived, we keep our feet well on the ground continuing the rapid growth we have enjoyed up until now."
+"data generation","You must create a 2,000 word long document representing an exchange between a customer service agent for the fictitious company Contoso Wireless and their customer. The sentiment of the customer must be {random_sentiment} and the topic of the conversation betweem the agent and customer should center around {random_topic}. The customer must be asking about the product {random_product}. The document should have at least 8 back and forth exchanges between the customer and the agent.'"
+"few shot data generation","Instructions: Create 10 new rows of data that match the format listed in the the ---Example--- section.
+
+---Example---
+| Product Name | Color | Weight | Perishable |
+| Crayons | Mixed | 6 oz | No |
+| Carrot | Orange | 12 oz | Yes |
+| Potato | Red | 5 lbs | Yes |
+| Chair | Black | 25 lbs | No |"
+"Data Imputation","Instructions: Replace any missing or blank value, denoted as ###, in the existing rows of data in the ---Example--- Section. Create 10 new rows of data that match the format listed in the the ---Example--- section.  
+
+---Example---
+| Product Name | Color | Weight | Perishable |
+| Crayons | Mixed | 6 oz | No |
+| Carrot | Orange | 12 oz | Yes |
+| Potato | Red | 5 lbs | ### |
+| Chair | Black | 25 lbs | No |
+| Watermelon | Green | ### | Yes |
+| Glass | Clear | 3 lbs | No |
+| Milk | ###  | 1 gal | Yes |
+| Pencil | Yellow | 8 oz | No |
+| Envelope | ###  | 1 oz | No |
+| Bowl | Blue | ###  | No |
+| Book | Brown | 15 oz | No |
+| Shampoo | Yellow | 32 oz | No |
+| Pizza | Red | 2 lbs | Yes |"
