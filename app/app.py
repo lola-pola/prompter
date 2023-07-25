@@ -58,7 +58,7 @@ def app():
             openai.api_type = "azure"
             openai.api_base = st.text_input("API base", value="https://coca-cola.openai.azure.com/", key="api_base")
             openai.api_version = st.text_input("api version",value="2023-03-15-preview")
-            openai.api_key = st.text_input('azure openai key', key="KEY_AZURE_AI", value="5d6336081ee3470e95e04c2ff1488f78", type="password") 
+            openai.api_key = st.text_input('azure openai key', key="KEY_AZURE_AI", value="TBD", type="password") 
             if st.checkbox("Submit", key="submit"):
                 st.success("Submitted!")
 
